@@ -1,10 +1,10 @@
 # TareaT2_EnzoSevillaGutierrez
 
-Proyecto de aplicación Android para la Tarea T2.
+Proyecto de aplicación Android que realicé para una tarea.
 
 ## Descripción
 
-Esta aplicación es una Pokédex sencilla desarrollada como parte de la asignatura de Programación Multimedia y Dispositivos Móviles. Permite visualizar una lista de Pokémon y sus detalles.
+Esta aplicación es una Pokédex sencilla desarrollada como parte de la asignatura de Programación Multimedia y Dispositivos Móviles. Permite visualizar una lista de Pokémon y sus detalles y consume de una API.
 
 ## Galería
 
