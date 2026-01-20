@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menú contextual que aparece al mantener pulsado un elemento -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Opción para añadir a favoritos -->
+    <item
+        android:id="@+id/ctx_add_favorite"
+        android:title="@string/menu_add_favorite" />
+    <item
+        android:id="@+id/ctx_remove_favorite"
+        android:title="@string/menu_remove_favorite" />
+</menu>

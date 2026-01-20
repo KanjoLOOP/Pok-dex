@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.pokedex.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/menu_context_menu.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/menu/context_menu.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/layout_fragment_pokemon_detail.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_pokemon_detail.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/layout_item_pokemon.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/item_pokemon.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/menu_menu_main.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-debug-43:/layout_fragment_pokemon_list.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_pokemon_list.xml"
+    }
+]

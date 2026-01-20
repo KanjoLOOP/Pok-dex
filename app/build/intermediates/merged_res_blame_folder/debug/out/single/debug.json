@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/layout_item_pokemon.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/item_pokemon.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/anim_slide_out_right.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/anim_slide_in_left.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/anim_slide_out_left.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/layout_fragment_pokemon_list.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_pokemon_list.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/layout_fragment_pokemon_detail.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/layout/fragment_pokemon_detail.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/navigation_nav_graph.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/menu_context_menu.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/menu/context_menu.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/menu_menu_main.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/drawable_bg_type_badge.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/drawable/bg_type_badge.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.pokedex.app-merged_res-43:/anim_slide_in_right.xml.flat",
+        "source": "com.example.pokedex.app-main-45:/anim/slide_in_right.xml"
+    }
+]

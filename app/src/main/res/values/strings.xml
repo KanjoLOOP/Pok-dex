@@ -1,0 +1,18 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Mi Pokédex</string>
+    <!-- Textos para los menús -->
+    <string name="menu_clear_cache">Limpiar Caché</string>
+    <string name="menu_favorites">Ir a Favoritos</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_add_favorite">Añadir a Favoritos</string>
+    <string name="menu_remove_favorite">Eliminar de Favoritos</string>
+    <string name="title_pokemon_list">Lista Pokémon</string>
+    <string name="title_pokemon_detail">Detalle Pokémon</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="search_hint">Buscar Pokémon...</string>
+    <string name="loading">Cargando...</string>
+    <string name="error_fetch">Error al obtener datos</string>
+    <string name="shake_message">¡Agitado! Cargando Pokémon aleatorio...</string>
+    <string name="cache_cleared">Caché limpiada</string>
+</resources>

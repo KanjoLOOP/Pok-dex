@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Temas de la aplicación -->
+    <style name="Theme.Pokedex" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color primario de la marca (usado en la AppBar, etc.) -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Color secundario de la marca (para controles, FABs, etc.) -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Puedes personalizar tu tema aquí -->
+    </style>
+</resources>

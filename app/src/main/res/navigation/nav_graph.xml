@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grafo de navegación principal de la aplicación -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokemonListFragment">
+
+    <!-- Fragmento de Lista de Pokémon (Pantalla de inicio) -->
+    <fragment
+        android:id="@+id/pokemonListFragment"
+        android:name="com.example.pokedex.fragments.FragmentListaPokemon"
+        android:label="@string/title_pokemon_list"
+        tools:layout="@layout/fragment_pokemon_list">
+        <!-- Acción para navegar al detalle de un Pokémon -->
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/pokemonDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_list_to_favorites"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+
+    <!-- Fragmento de Detalle de Pokémon -->
+    <fragment
+        android:id="@+id/pokemonDetailFragment"
+        android:name="com.example.pokedex.fragments.FragmentDetallePokemon"
+        android:label="@string/title_pokemon_detail"
+        tools:layout="@layout/fragment_pokemon_detail" />
+
+    <!-- Fragmento de Favoritos -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.pokedex.fragments.FragmentFavoritos"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favorites_to_detail"
+            app:destination="@id/pokemonDetailFragment" />
+    </fragment>
+    
+    <!-- Acciones globales -->
+    <action android:id="@+id/action_global_favorites" app:destination="@id/favoritesFragment"/>
+    <action android:id="@+id/action_global_detail" app:destination="@id/pokemonDetailFragment"/>
+
+</navigation>

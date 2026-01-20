@@ -1,0 +1,45 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/pokemonListFragment" >
+<fragment
+    android:id="@+id/pokemonListFragment"
+    android:name="com.example.pokedex.fragments.FragmentoListaPokemon"
+    android:label="@string/title_pokemon_list"
+    tools:layout="@layout/fragment_pokemon_list" >
+
+    <action
+        android:id="@+id/action_list_to_detail"
+        app:destination="@id/pokemonDetailFragment" />
+    <action
+        android:id="@+id/action_list_to_favorites"
+        app:destination="@id/favoritesFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/pokemonDetailFragment"
+    android:name="com.example.pokedex.fragments.FragmentoDetallePokemon"
+    android:label="@string/title_pokemon_detail"
+    tools:layout="@layout/fragment_pokemon_detail" />
+<fragment
+    android:id="@+id/favoritesFragment"
+    android:name="com.example.pokedex.fragments.FragmentoFavoritos"
+    android:label="@string/title_favorites"
+    tools:layout="@layout/fragment_favorites" >
+
+    <action
+        android:id="@+id/action_favorites_to_detail"
+        app:destination="@id/pokemonDetailFragment" />
+
+</fragment>
+
+<!-- Acciones globales -->
+<action
+    android:id="@+id/action_global_favorites"
+    app:destination="@id/favoritesFragment" />
+<action
+    android:id="@+id/action_global_detail"
+    app:destination="@id/pokemonDetailFragment" />
+</navigation>
