@@ -1,5 +1,3 @@
-# TareaT2_EnzoSevillaGutierrez
-
 Proyecto de aplicación Android que realicé para una tarea.
 
 ## Descripción
